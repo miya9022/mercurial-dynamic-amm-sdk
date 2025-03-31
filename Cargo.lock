@@ -76,9 +76,9 @@ dependencies = [
 
 [[package]]
 name = "ahash"
-version = "0.8.11"
+version = "0.8.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e89da841a80418a9b391ebaea17f5c112ffaaa96f621d2c285b5174da76b9011"
+checksum = "91429305e9f0a25f6205c5b8e0d2db09e0708a7a6df0f42212bb56c32c8ac97a"
 dependencies = [
  "cfg-if",
  "getrandom 0.2.10",
@@ -1410,7 +1410,7 @@ dependencies = [
 name = "dynamic-amm"
 version = "0.6.1"
 dependencies = [
- "ahash 0.8.11",
+ "ahash 0.8.6",
  "anchor-lang",
  "anchor-spl",
  "solana-program",
@@ -1436,7 +1436,7 @@ dependencies = [
 name = "dynamic-vault"
 version = "0.1.0"
 dependencies = [
- "ahash 0.8.11",
+ "ahash 0.8.6",
  "anchor-lang",
  "anchor-spl",
 ]
@@ -1809,7 +1809,7 @@ version = "0.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "43a3c133739dddd0d2990f9a4bdf8eb4b21ef50e4851ca85ab661199821d510e"
 dependencies = [
- "ahash 0.8.11",
+ "ahash 0.8.6",
 ]
 
 [[package]]
@@ -3612,7 +3612,7 @@ version = "1.16.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "02eb4f0ed3eade20f4abdcc0031167344237cd6e16808bd0f33945f9db7861fe"
 dependencies = [
- "ahash 0.8.11",
+ "ahash 0.8.6",
  "blake3",
  "block-buffer 0.10.4",
  "bs58 0.4.0",
@@ -3714,7 +3714,7 @@ version = "1.16.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "395d559e5be2c439551298e9fa95561807f24921fd9a1e08bb82a3dc05c02dea"
 dependencies = [
- "ahash 0.8.11",
+ "ahash 0.8.6",
  "bincode",
  "bv",
  "caps",
