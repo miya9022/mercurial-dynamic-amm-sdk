@@ -17,4 +17,4 @@ name = "dynamic_vault"
 [dependencies]
 anchor-lang = { version="0.29.0", features = ["event-cpi"] }
 anchor-spl = "0.29.0"
-ahash = "=0.8.6"
+ahash = "0.8.11"
